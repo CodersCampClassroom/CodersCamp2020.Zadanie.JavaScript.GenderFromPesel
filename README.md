@@ -1,7 +1,7 @@
 # CodersCamp 2020 - JavaScript
 ## 🧑‍🤝‍🧑 Zadanie praktyczne - Płeć z numeru PESEL
 
-#### ⏰ Czas na wykonanie: 30 minut
+#### ⏰ Czas na wykonanie: 35 minut
 
 W pliku `gender-from-pesel.js` uzupełnij implementację funkcji genderFromPesel, 
 która będzie przyjmowała jeden parametr wejściowy.
@@ -13,16 +13,23 @@ Potrzebna treść strony została podana na końcu zadania.
 
 ### 🚀 Wyzwania stojące przed Tobą
 
-Twój zespół realizuje projekt dla platformy rządowej.
+Twój zespół realizuje projekt dla klienta.
 W ramach tego projektu zostało Ci przypisane zadanie, 
 którego kryteria akceptacji zostały spisane poniżej.
+Każde z zadań zostało wycenione. Im więcej zadań zdobędziesz - tym więcej zarobisz dla firmy i tym lepiej Cię ocenią.
 
-1. Funkcja zwraca string `"MALE"`, jeśli PESEL dotyczy mężczyzny. **(10 punktów)**
-2. Funkcja zwraca string `"FEMALE"`, jeśli PESEL dotyczy kobiety. **(10 punktów)**
-3. Jeśli do funkcji nie został podany **string zawierający 11 znaków**, to należy rzucić wyjątek (Error). 
+Niestety, w projektach informatycznych oprócz działania programu ważne są także ustalone terminy.
+Pamiętaj, że umowa z klientem zobowiązuje nasz do zmieszczenia się w wyznaczonym czasie (30 minut).
+Za każde spóźnienie otrzymamy 1$ mniej. Jednakże, jeśli wszystko będzie wykonane w terminie, zarobimy premię 10$.
+
+1. Funkcja genderFromPesel zwraca string `"MALE"`, jeśli PESEL dotyczy mężczyzny. **(Wycena: 10$)**
+2. Funkcja genderFromPesel zwraca string `"FEMALE"`, jeśli PESEL dotyczy kobiety. **(Wycena: 10$)**
+3. Jeśli podany do funkcji genderFromPesel parametr, to nie **string zawierający 11 znaków**, wtedy należy rzucić wyjątek (Error). 
 Treść wiadomości w wyjątku musi być następująca `"XXX is not valid PESEL number!"`, gdzie XXX to podany na wejściu do funkcji niepoprawny PESEL
 Sprawdzamy jedynie liczbę znaków w podanym stringu. Nie weryfikujemy czy cały PESEL jest poprawnie skonstruowany.
-**(15 punktów)**
+**(Wycena: 15$)**
+
+**Całość**: 35$ + możliwa premia (10$) + opóźnienie (-1$ * każda rozpoczęta minuta po czasie)
 
 Przykłady działania funkcji:
 ```js
