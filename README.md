@@ -18,9 +18,16 @@ którego kryteria akceptacji zostały spisane poniżej.
 1. Funkcja zwraca string `"MALE"`, jeśli PESEL dotyczy mężczyzny. **(10 punktów)**
 2. Funkcja zwraca string `"FEMALE"`, jeśli PESEL dotyczy kobiety. **(10 punktów)**
 3. Jeśli do funkcji nie został podany **string zawierający 11 znaków**, to należy rzucić wyjątek (Error). 
-Treść wiadomości w wyjątku musi być następująca `"XXX is not valid pesel number!"`, gdzie XXX to podany na wejściu do funkcji niepoprawny PESEL
+Treść wiadomości w wyjątku musi być następująca `"XXX is not valid PESEL number!"`, gdzie XXX to podany na wejściu do funkcji niepoprawny PESEL
 Sprawdzamy jedynie liczbę znaków w podanym stringu. Nie weryfikujemy czy cały PESEL jest poprawnie skonstruowany.
 **(15 punktów)**
+
+Przykłady działania funkcji:
+```js
+genderFromPesel("89090132712") returns "MALE"
+genderFromPesel("00301791241") returns "FEMALE"
+genderFromPesel("123") throws Error("123 is not valid PESEL number!")
+```
 
 Powodzenia, twój zespół liczy na Ciebie! 
 

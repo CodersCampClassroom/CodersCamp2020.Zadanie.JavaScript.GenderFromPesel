@@ -9,7 +9,7 @@ describe('Invalid PESEL - too long', () => {
     '701125696491231231235123123',
   ].map(givenPesel => {
     test(`${givenPesel} is not valid pesel number`, () => {
-      expect(() => genderFromPesel(givenPesel)).toThrowError(`${givenPesel} is not valid pesel number!`)
+      expect(() => genderFromPesel(givenPesel)).toThrowError(`${givenPesel} is not valid PESEL number!`)
     });
   })
 
