@@ -1,5 +1,7 @@
 # CodersCamp 2020 - JavaScript
-## Zadanie praktyczne - Płeć z numeru PESEL
+## 🧑‍🤝‍🧑 Zadanie praktyczne - Płeć z numeru PESEL
+
+#### ⏰ Czas na wykonanie: 30 minut
 
 W pliku `gender-from-pesel.js` uzupełnij implementację funkcji genderFromPesel, 
 która będzie przyjmowała jeden parametr wejściowy.
@@ -9,7 +11,7 @@ Nie będziemy sprawdzać liczb, obiektów itp.
 Do wykonania zadania wykorzystaj wiedzę domenową nt. numeru pesel, ze strony Gov.pl
 Potrzebna treść strony została podana na końcu zadania.
 
-### Wyzwania stojące przed Tobą
+### 🚀 Wyzwania stojące przed Tobą
 
 Twój zespół realizuje projekt dla platformy rządowej.
 W ramach tego projektu zostało Ci przypisane zadanie, 
@@ -32,7 +34,7 @@ genderFromPesel("123") throws Error("123 is not valid PESEL number!")
 Powodzenia, twój zespół liczy na Ciebie! 
 
 
-## Czym jest numer PESEL
+## ℹ️ Czym jest numer PESEL
 Źródło: https://www.gov.pl/web/gov/czym-jest-numer-pesel
 
 Numer PESEL to jedenastocyfrowy symbol numeryczny, 
@@ -60,5 +62,3 @@ Przykład: PESEL **81020**3PPP**6**K należy do kobiety,
 która urodziła się 3 lutego 1981 roku, 
 a PESEL **761115**PPP**3**K - do mężczyzny, 
 który urodził się 15 listopada 1976 roku.
-
-
