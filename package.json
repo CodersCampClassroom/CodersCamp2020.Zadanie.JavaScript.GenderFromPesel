@@ -4,11 +4,11 @@
   "description": "",
   "scripts": {
     "test": "jest",
-    "test:pesel:female": "jest -- pesel-female.spec.js",
-    "test:pesel:male": "jest -- pesel-male.spec.js",
-    "test:pesel:invalid-longer": "jest -- pesel-invalid-longer.spec.js",
-    "test:pesel:invalid-shorter": "jest -- pesel-invalid-shorter.spec.js",
-    "test:pesel:invalid-empty": "jest -- pesel-invalid-empty.spec.js"
+    "test:pesel:female": "jest -- test/pesel-female.spec.js",
+    "test:pesel:male": "jest -- test/pesel-male.spec.js",
+    "test:pesel:invalid-longer": "jest -- test/pesel-invalid-longer.spec.js",
+    "test:pesel:invalid-shorter": "jest -- test/pesel-invalid-shorter.spec.js",
+    "test:pesel:invalid-empty": "jest -- test/pesel-invalid-empty.spec.js"
   },
   "author": "",
   "license": "ISC",

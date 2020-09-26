@@ -1,4 +1,4 @@
-const genderFromPesel = require('./gender-from-pesel');
+const genderFromPesel = require('../gender-from-pesel');
 
 //Testy za 10 punktów
 
