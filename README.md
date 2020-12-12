@@ -1,5 +1,13 @@
 # CodersCamp 2020 - JavaScript
-## 🧑‍🤝‍🧑 Zadanie praktyczne - Płeć z numeru PESEL
+
+#### Zasady wykonywania zadań praktycznych
+Uwaga! Podczas realizacji zadania należy wykonać pracę jedynie w pliku podanym w treści.
+Nie wolno zmieniać (commitować zmian) w plikach w katalogu `test`. 
+Wprowadzenie zmian w tych plikach będzie skutkować uzyskaniem 0 punktów za zadanie.
+Twój czas wykonywania zadania to czas pomiędzy opublikowaniem na Discord linku do zadania a dokładną datą Twojego ostatniego commita w repozytorium z zadaniem.
+Dlatego, kiedy uznasz zadanie za zakończone, już nic nie zmieniaj. Upewnij się także na GitHub, że wykonałeś push.
+
+## 🧑‍🤝‍🧑 Zadanie praktyczne — Płeć z numeru PESEL
 
 #### ⏰ Czas na wykonanie: 40 minut
 
@@ -14,13 +22,13 @@ Potrzebna treść strony została podana na końcu zadania.
 ### 🚀 Wyzwania stojące przed Tobą
 
 Twój zespół realizuje projekt dla klienta.
-W ramach tego projektu zostało Ci przypisane zadanie, 
-którego kryteria akceptacji zostały spisane poniżej.
-Każde z zadań zostało wycenione. Im więcej zadań zdobędziesz - tym więcej zarobisz dla firmy i tym lepiej Cię ocenią.
+W ramach tego projektu zostało Ci przypisane zadanie, którego kryteria akceptacji zostały spisane poniżej.
+Każde z zadań zostało wycenione. 
+Im więcej zadań wykonasz — tym więcej zarobisz dla firmy i osiągniesz lepszą pozycję do negocjacji przyszłych podwyżek.
 
 Niestety, w projektach informatycznych oprócz działania programu ważne są także ustalone terminy.
-Pamiętaj, że umowa z klientem zobowiązuje nasz do zmieszczenia się w wyznaczonym czasie (40 minut).
-Za każde spóźnienie otrzymamy 1$ mniej. Jednakże, jeśli wszystko będzie wykonane w terminie, zarobimy premię 10$.
+Pamiętaj, że umowa z klientem zobowiązuje nas do zmieszczenia się w wyznaczonym czasie (40 minut).
+Za każdą rozpoczętą minutę opóźnienia otrzymamy jako zapłatę o 1$ mniej.
 
 1. Funkcja genderFromPesel zwraca string `"MALE"`, jeśli PESEL dotyczy mężczyzny. **(Wycena: 10$)**
 2. Funkcja genderFromPesel zwraca string `"FEMALE"`, jeśli PESEL dotyczy kobiety. **(Wycena: 10$)**
@@ -29,7 +37,7 @@ Treść wiadomości w wyjątku musi być następująca `"XXX is not valid PESEL 
 Sprawdzamy jedynie liczbę znaków w podanym stringu. Nie weryfikujemy czy cały PESEL jest poprawnie skonstruowany.
 **(Wycena: 15$)**
 
-**Całość**: 35$ + możliwa premia (10$) + opóźnienie (-1$ * każda rozpoczęta minuta po czasie)
+**Całość**: 35$ + opóźnienie (-1$ * każda rozpoczęta minuta po czasie)
 
 Przykłady działania funkcji:
 ```js

@@ -1,8 +1,6 @@
 const genderFromPesel = require('../gender-from-pesel');
 
-//Testy za 5 punktów
-
-describe('Invalid PESEL - empty string', () => {
+describe('(5 punktów) Invalid PESEL - empty string', () => {
 
   [
     '',

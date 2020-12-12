@@ -1,8 +1,6 @@
 const genderFromPesel = require('../gender-from-pesel');
 
-//Testy za 10 punktów
-
-describe('Female PESEL', () => {
+describe('(10 punktów) Female PESEL', () => {
 
   [
     '65110511743',
