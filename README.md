@@ -1,7 +1,7 @@
 # CodersCamp 2020 - JavaScript
 ## 🧑‍🤝‍🧑 Zadanie praktyczne - Płeć z numeru PESEL
 
-#### ⏰ Czas na wykonanie: 35 minut
+#### ⏰ Czas na wykonanie: 40 minut
 
 W pliku `gender-from-pesel.js` uzupełnij implementację funkcji genderFromPesel, 
 która będzie przyjmowała jeden parametr wejściowy.
@@ -19,7 +19,7 @@ którego kryteria akceptacji zostały spisane poniżej.
 Każde z zadań zostało wycenione. Im więcej zadań zdobędziesz - tym więcej zarobisz dla firmy i tym lepiej Cię ocenią.
 
 Niestety, w projektach informatycznych oprócz działania programu ważne są także ustalone terminy.
-Pamiętaj, że umowa z klientem zobowiązuje nasz do zmieszczenia się w wyznaczonym czasie (30 minut).
+Pamiętaj, że umowa z klientem zobowiązuje nasz do zmieszczenia się w wyznaczonym czasie (40 minut).
 Za każde spóźnienie otrzymamy 1$ mniej. Jednakże, jeśli wszystko będzie wykonane w terminie, zarobimy premię 10$.
 
 1. Funkcja genderFromPesel zwraca string `"MALE"`, jeśli PESEL dotyczy mężczyzny. **(Wycena: 10$)**
